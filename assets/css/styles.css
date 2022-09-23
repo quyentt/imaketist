@@ -943,7 +943,6 @@ body {
     min-height: 37.5rem;
     padding: 3.375rem 0;
     position: relative;
-    overflow: hidden;
 }
 
 .register-form {
@@ -1360,12 +1359,13 @@ img.reg-bg-top {
 
 .temp-meta .title {
     display: block;
-    color: #222222;
+    color: #fff;
     font-weight: 500;
     font-size: 1.125rem;
     line-height: 1.25rem;
     margin-top: 0.625rem;
     margin-bottom: 0.625rem;
+    text-align: center;
 }
 
 .temp-meta .price {
@@ -1373,16 +1373,20 @@ img.reg-bg-top {
     align-items: center;
     justify-content: center;
     margin-bottom: 0.625rem;
+    color: #fff;
 }
 
 .temp-meta .regular-price {
-    color: #666666;
+    color: #fff;
+    opacity: 0.7;
     text-decoration: line-through;
+    padding-left: 5px;
 }
 
 .temp-meta .sale-price {
-    color: var(--bs-danger);
+    color: white;
     font-weight: 700;
+    padding-right: 5px;
 }
 
 .temp-item:hover .temp-meta {
