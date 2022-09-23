@@ -1448,6 +1448,10 @@ img.reg-bg-top {
     margin-bottom: 0.375rem;
 }
 
+.titles .title:nth-child(2n-1) {
+    background: transparent;
+}
+
 .titles .title span {
     display: block;
     padding: 0.4375rem;
